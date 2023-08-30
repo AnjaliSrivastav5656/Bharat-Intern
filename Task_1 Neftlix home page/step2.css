@@ -1,0 +1,97 @@
+body{
+    background-color: white;
+    height: 60vh;
+    margin: 0;
+}
+.header{
+    margin: 0;
+    height: 120vh;
+}
+.menu{
+    margin: 0;
+}
+.menu th{
+    margin-left: 10px;
+}
+.menu th a{
+    text-decoration: none;
+    color: black;
+    margin-left: 858px;
+}
+.logo{
+    margin-top: 1px;
+    margin-left: 2px;
+}
+.logo img{
+    width: 120px;}
+.content{
+    color: black;
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 60px;
+}
+.content p{
+    margin: 10px 322px;
+}
+.content h1{
+    margin:1px 320px;
+}
+.content input{
+    width: 343px;
+    padding: 8px;
+    margin:5px 320px;
+}
+.content button{
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 11px;
+    color: white;
+    width:362px;
+    background-color:red ;
+     margin: 2px 320px;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+}
+.section1{
+    margin: 2px;
+    margin-left: 0px;
+   padding: 3px;
+    height: 40vh;
+    background-color: gainsboro;
+}
+.section1 p{
+    margin-left: 30px;
+}
+.col1{
+    float: left;
+    width: 200px;
+    margin-left: 30px;
+}
+.col1 a{
+    text-decoration: none;
+    color: black;
+}
+.arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.down{
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+}
+.language1{
+    border: 1px solid black;
+    background: transparent;
+    width: 100px;
+    padding: 7px;
+    margin: 85px 30px;
+}
+.language1 a{
+    text-decoration: none;
+    color: black;
+}
+
