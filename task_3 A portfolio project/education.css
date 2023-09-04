@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    background-position: center;
+     background-size:100% 100%;
+     width: 100%;
+     height: 100vh;
+     background-repeat: no-repeat;
+     margin: 0;
+}
+ .header{
+     color: rgb(247, 242, 235);
+     background-image: linear-gradient(45deg,pink,cyan);
+     background-position: 50% 50%;
+     background-size: cover;
+    -webkit-animation-duration:8s;
+    -webkit-animation-name:head;
+    -webkit-animation-iteration-count: 3;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+    width: 100%;
+    height: 140vh;
+ }
+ @-webkit-keyframes head{
+    0%{
+        background-image: linear-gradient(45deg,rgb(148, 22, 148),cyan);
+    }
+    20%{
+        background-image: linear-gradient(45deg,black,cyan);
+    }
+    40%{
+        background-image: linear-gradient(30deg,#7F7FD5,#91EAE4);
+    }
+    60%{
+        background-image: linear-gradient(45deg,#31B7C2,#7BC393);
+    }
+ }
+.topnav{
+    border: 1px solid none;
+    background-color:white;
+    margin: 0;
+    width: 1078px;
+    padding: 7px;
+}
+.topnav th{
+   float: right;
+}
+.topnav th a{
+    text-decoration: none;
+    padding: 6px;
+    margin-left: 60px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.topnav th a:hover{
+    background-image: linear-gradient(45deg,rgba(139, 138, 138, 0.5)50%,rgba(133, 125, 125, 0.5)50%);
+    color: white;
+}
+.content{
+    margin-top: 60px;
+    color: cornsilk;
+}
+.content h1{
+    text-align: center;
+    background-image: linear-gradient(90deg,red,blue);
+   background-clip: text;
+   color: transparent;
+}
+.content h4{
+    color: black;
+    text-align: center;
+}
+.content p{
+    text-align: center;
+}
